@@ -79,7 +79,7 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 761813740260491180}
-  m_Text: Hello
+  m_Text: Hi
   m_OffsetZ: 0
   m_CharacterSize: 0.2
   m_LineSpacing: 1
@@ -106,7 +106,7 @@ GameObject:
   - component: {fileID: 1250518698942569459}
   - component: {fileID: 8764239832712642667}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Can Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -121,7 +121,7 @@ Transform:
   m_GameObject: {fileID: 3351767832305810212}
   m_LocalRotation: {x: 0.21786255, y: 0.21445926, z: -0.04913741, w: 0.9508568}
   m_LocalPosition: {x: 0, y: 0.709, z: 0}
-  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
+  m_LocalScale: {x: 30, y: 30, z: 30}
   m_Children:
   - {fileID: 1033268863905633491}
   m_Father: {fileID: 0}
