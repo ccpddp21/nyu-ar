@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
-  <Tracking>
-    <ImageTarget name="chips" size="1.000000 0.701599" />
-  </Tracking>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="coffeebox.Left" size="0.101600 0.101600"/>
+        <ImageTarget name="coffeebox.Back" size="0.152400 0.101600"/>
+        <ImageTarget name="coffeebox.Top" size="0.152400 0.101600"/>
+        <ImageTarget name="coffeebox.Right" size="0.101600 0.101600"/>
+        <ImageTarget name="coffeebox.Bottom" size="0.152400 0.101600"/>
+        <ImageTarget name="coffeebox.Front" size="0.152400 0.101600"/>
+        <MultiTarget name="coffeebox">
+            <Part name="coffeebox.Left" translation="-0.07620000094175339 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="coffeebox.Right" translation="0.07620000094175339 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="coffeebox.Front" translation="0 0 0.05079999938607216" rotation="AD: 1 0 0 0"/>
+            <Part name="coffeebox.Back" translation="0 0 -0.05079999938607216" rotation="AD: 0 1 0 180"/>
+            <Part name="coffeebox.Top" translation="0 0.05079999938607216 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="coffeebox.Bottom" translation="0 -0.05079999938607216 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
 </QCARConfig>
