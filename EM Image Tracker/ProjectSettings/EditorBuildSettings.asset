@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Astronaut AR.unity
+    guid: 6eb68b5f4ce82534b84097063ae56d5f
   m_configObjects: {}

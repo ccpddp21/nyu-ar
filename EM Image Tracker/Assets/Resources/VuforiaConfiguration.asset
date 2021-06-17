@@ -17,7 +17,7 @@ MonoBehaviour:
     ufoLicenseKey: QWRoL3R1SC8vLy8vQUFBQUtHeDJ4YWhIMjBwNWdML1p5bUZVOWN1WEdkeGZZUVNQZlFna2JaMkRYMnR0OGliem9HMitYL2JaU2R1VFp4WE9VYWYrbnJlWWRqSUNBbmtHMVlsS24xVGxGN3dZbjZHdzRlUnVMUGVjZmN5Vmc4ZG9zekRzNnRkUUJENjlWSDUyNlR5TVZyZmsyNi9zOVZGZ2ovMENkRWhrUFRMZkwwK2ZVMm5RQzVFNHdSM0VuNE1CQkVjd29YUFlWenRoVVNuVldVRGlwUzZhbFlCT2FvK0hyVTFYeTBiRTZCb0ZTbGpKTXBBSndJb2tiOGx0V0FvMytNUmhPMHE1Vy9UT2hiT09sYXJ0VVA2QUlBbGJqU0Z6NzNaNjB4N3dSbHdiWEQvWWR6dzA2YmpaL2NKTWNBSUgzUnJZYlVZdGIrV2g2d0dwRkhlVjNiR1pYL3B4QXBYMHJ5YitzZEI3aEZKRTRMdEEvWnJhNVo3WUFEcHk=
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
-    maxSimultaneousImageTargets: 1
+    maxSimultaneousImageTargets: 2
     maxSimultaneousObjectTargets: 1
     virtualSceneScaleFactor: 1
     useDelayedLoadingObjectTargets: 0
@@ -38,7 +38,7 @@ MonoBehaviour:
   deviceTracker:
     autoStartTracker: 1
     arcoreRequirement: 1
-    autoImportArcore: 0
+    autoImportArcore: 1
   playmode:
     mSequencePath: 
     playModeType: 0
